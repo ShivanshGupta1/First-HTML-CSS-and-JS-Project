@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myfirstproject.css">
+    
+    <script> 
+    function add (a,b) {
+    
+    a = parseInt(document.getElementById ('a').value)
+    
+    b = parseInt(document.getElementById ('b').value)
+    exp = a+b
+    alert (eval (exp));
+
+} 
+    </script>
+ 
+    <title>Document</title>
+</head>
+<body>
+    <H1>Shivansh Gupta</H1> 
+    <p>Hello, and my name is Shivansh Gupta. I am 11 years old and I study in 7th Grade  I study in the IGCSE board and I love to code. I also know how to play the guitar and drums</p>
+    <div></div>
+    <form>
+<input name= "a" type="text" id="a">
+<input name= "b" type="text" id="b">
+    </form>
+    <button onclick= "alert('Your account will be deleted') ">
+Click Me
+    </button>
+    <button onclick=" add (a,b) ">Add</button>
+</body>
+</html>
